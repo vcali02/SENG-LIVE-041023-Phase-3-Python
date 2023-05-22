@@ -6,7 +6,18 @@
 	# Python datatypes 
 
 # 🚨 To enable ipdb debugging, first import "ipdb"
-import ipdb
+# import ipdb
+
+# def hello_world():
+#     sleepy = "bear"
+#     print(sleepy)
+
+#     ipdb.set_trace() # pause the execution of code. #debugger here
+
+#     not_interpreted_yet = "coffee"
+#     print(not_interpreted_yet)
+
+# hello_world()
 
 # 1. ✅ Create a condition to check a pet's mood
     # If "pet_mood" is "Hungry!", "Rose needs to be fed."
@@ -15,12 +26,37 @@ import ipdb
 
     # Note => Feel free to set your own values for "pet_mood" to view various outputs.
 
-pet_mood = "Hungry!"
-pet_name = "Rose"
+#JS => camelCase
+#python => snake_case
+
+# JS => can declare variable without assignment
+# python => cannot declare variable without assignment
+
+
+
+#conditional syntax 
+# if pet_mood == "Hungry!":
+#     print("Rose needs to be fed.")
+# elif pet_mood == "Rowdy":
+#     print("Rose needs a walk.")
+# else:
+#     print("Rose is all good.")
+
 
 # 2. ✅ Create a ternary operator using "pet_mood" as a condition:
     # If pet_food is "Hungry!" => "Rose needs to be fed."
     # In all other cases => "Rose is all good."
+
+#JS
+    #condition? true: false
+
+#python
+    #true, if condition else default val
+
+pet_mood = "Hungry!"
+pet_name = "Rose"
+
+print("Rose needs to be fed.") if pet_mood == "Hungry!" else print("Rose is all good.")
 
 # 3. ✅ Create a function (say_hello) that returns the string "Hello, world!"
     # Test invocation of "say_hello" in ipdb using "say_hello()"
