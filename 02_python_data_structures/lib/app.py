@@ -7,51 +7,67 @@ pet_names = ['Rose', 'Meow Meow Beans', 'Mr.Legumes', 'Luke', 'Lea', 'Princess G
 
 # Reading Information From Lists
 #2. ✅ Return the first pet name 
-print(pet_names[0])
+# print(pet_names[0])
 
 #3. ✅ Return all pet names beginning from the element at index 3 or the 4th element
-print(pet_names[2:])
+# print(pet_names[2:])
 
 #4. ✅ Return all pet names before the element at index 3 or the 4th element
-print(pet_names[:3])
+# print(pet_names[:3])
 
 #5. ✅  Return all pet names beginning from the element at index 3 or the 4th element and up to the index 7, not including it.
-print(pet_names[3:7])
+# print(pet_names[3:7])
 
 #6. ✅ Find the index of a given element
-print(pet_names.index("Lea"))
+# print(pet_names.index("Lea"))
 
 #7. ✅ Reverse the original list
-pet_names.reverse()
-print(pet_names)
+# pet_names.reverse()
+# print(pet_names)
 
 #8. ✅ Return the frequency of a given element 
-print(pet_names.count("Lea"))
+# print(pet_names.count("Lea"))
 
 # Updating Lists
 #9. ✅ Change the first element to all uppercase 
-
+# pet_names[0] = pet_names[0].upper()
+# print(pet_names)
 
 #10. ✅ Append a new name to the list
-
+# pet_names.append("Mr. Piggy")
+# print(pet_names)
 
 #11. ✅ Add a new name at a specific index
-
+# pet_names.insert(2, "Ms. Piggy")
+# print(pet_names)
 
 #12. ✅ Add two lists together 
+nums = [ 1, 5, 8, 0]
+# pet_names.extend(nums)
+# print(pet_names)
+
+# new_list = nums + pet_names
+# print(new_list)
 
 
 #13. ✅ Remove the final element from the list
-
+# pet_names.pop()
+# print(pet_names)
 
 #14. ✅ Remove element by specific index
+# pet_names.remove(pet_names[0])
+
+# pet_names.pop(4)
+# print(pet_names)
 
 
 #15. ✅ Remove a specific element 
-
+# pet_names.remove("Meow Meow Beans")
+# print(pet_names)
 
 #16. ✅ Remove all pet names from the list
-
+# pet_names.clear()
+# print(pet_names)
 
 #Tuple 
 # 📚 Review With Students:
@@ -79,6 +95,7 @@ print(pet_names.count("Lea"))
 
 #23. ✅ Create a Range 
 #Note:  Ranges are primarily used in loops
+
 
 
 # Demo Sets (Stretch Goal)
